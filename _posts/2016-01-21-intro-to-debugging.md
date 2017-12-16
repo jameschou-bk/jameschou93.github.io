@@ -2,7 +2,7 @@
 layout: post
 title: Intro to debugging
 description: >
-tags: [hydejack]
+tags: [blog]
 ---
 
 Hello Readers,

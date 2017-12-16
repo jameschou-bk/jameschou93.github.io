@@ -1,11 +1,10 @@
 ---
 layout: post
-title: Hydejack's New Design
-description: >
-  This post introduces Hydejack's now background image, color palette and logo.
+title: Postgres SQL and SQL Queries
+description: 
 image: /assets/img/caleb-george.jpg
 hide_image: true
-tags: [hydejack]
+tags: [blog]
 redirect_from: /2017/11/17/whats-new-in-v7/
 ---
 
