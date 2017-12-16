@@ -1,0 +1,155 @@
+{
+    "settings": {
+        "icons" : true
+    },
+    "firstname": "James",
+    "familyname": "Chou",
+    "linkedin_id": "james-chou",
+    "github_id": "jameschou93",
+    "bio_data": {
+        "email": "james.chou.career@gmail.com",
+        "phone": "+1 (646) 875-0729",
+        "website": "jameschou.info",
+        "stars": ["Ruby","Javascript","HTML/CSS","Git"],
+	"summary": {
+		"points":[
+		"Bootcamp Graduate",
+		"Project management background with Agile experience",
+    "Eager to immerse in all unfamiliar technology"
+		]
+	},
+        "github_projects": {
+            "details": [
+                {
+                    "project_name": "jameschou93/imti-nyc-app",
+                    "tagline": "",
+                    "description": [
+                        "Wrote a web application for a Montessori Training Program allowing users to signup, read the latest news, receive emails, and pay for courses",
+                    ]
+                },
+                {
+                    "project_name": "jameschou93/voter-app",
+                    "tagline": "A mini project",
+                    "description": [
+                        "An app to let users post ideas, comment, and vote.",
+		    	              "Written using Rails using Devise, act_as_voteable, and will_paginate gems"
+                    ]
+                },
+                {
+                    "project_name": "jameschou93/Rally",
+                    "tagline": "My capstone project",
+                    "description": [
+                        "A web app that helps people join/create groups, arrange meetings, and find locations to meet up based on crowd density",
+                        "Consumes google maps api",
+                    ]
+                }
+            ]
+        },
+        "skills": {
+            "details": [
+                {
+                    "type": "Programming Languages",
+                    "items": [
+                        "Ruby",
+                        "HAML",
+                        "HTML/CSS",
+                        "Javascript",
+                    ]
+                },
+                {
+                    "type": "Web Frameworks",
+                    "items": [
+                        "Angular Js"
+                        "Rails",
+                    ]
+                },
+                {
+                    "type": "Databases",
+                    "items": [
+                        "PostgreSQL",
+                    ]
+                }
+            ]
+        },
+        "education": {
+	    "show_gpa": false,
+            "schools": [
+                {
+                    "degree": "Bachelor of Science",
+                    "major": "Health Science and Healthcare Informatics",
+                    "institution": "Stony Brook Univserity",
+                    "graduation_year": 2015,
+                }
+            ]
+        },
+        "experience": {
+            "items": [
+                {
+                    "title": "Graduate Research Assistant",
+                    "organisation": "CTR, UT Austin",
+		    "location": "",
+                    "from": "Sept. 2013",
+                    "to": "Jan. 2014",
+                    "details": [
+                        "Developed a common web interface <<http://unitydatabase.com>> to search through different datasets and output aggregate results and ensuring easy pluggability of new datasets."
+                    ],
+                    "technology_used": {
+                        "tools": [
+                            "Python",
+                            "Django",
+                            "South",
+                            "PostgreSQL"
+                        ]
+                    }
+                },
+                {
+                    "title": "SDE II (Software Development Engineer II)",
+                    "organisation": "Flipkart",
+		    "location": "India",
+                    "from": "Apr. 2013",
+                    "to": "Jul. 2013",
+                    "details": [
+                        "Wrote a ruby gem _Morsel_ to traverse through active record trees to purge old records. It helped in limiting the production database size and keeping the data clean."
+                    ]
+                },
+                {
+                    "title": "Software Development Engineer",
+                    "organisation": "Flipkart",
+		    "location": "India",
+                    "from": "Jun. 2011",
+                    "to": "Mar. 2013",
+                    "details": [
+                        "Was part of a team which developed the warehouse module in RoR framework from scratch. It now scales to around 10X as compared to the ERP system existed.",
+                        "Designed warehouse stock snapshots and stock ledger framework using Pig scripts to make the supply chain system legally compliant."
+                    ],
+                    "technology_used": {
+                        "tools": [
+                            "Ruby",
+                            "Java",
+                            "Pig",
+                            "Active Records",
+                            "MySQL"
+                        ]
+                    }
+                },
+                {
+                    "title": "Software Engineer",
+                    "organisation": "IBM Software Labs",
+		    "location": "India",
+                    "from": "Jul. 2009",
+                    "to": "Jun. 2011",
+                    "details": [
+                        "Handled high priority issues for JDBC client driver for IBM Informix database.",
+                        "Was awarded Smart CADian award for resolving an obscure deadlock situation, making Informix JDBC driver more robust."
+                    ],
+                    "technology_used": {
+                        "tools": [
+                            "Java",
+                            "IBM Informix",
+                            "IBM DB2"
+                        ]
+                    }
+                }
+            ]
+        }    
+}
