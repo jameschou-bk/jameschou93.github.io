@@ -11,11 +11,11 @@ author1:
 
   # This photo will be used in the about section
   picture:
-    path:            http://i38.photobucket.com/albums/e114/jcjmz55/Mobile%20Uploads/20170727_154840_zpsdg9zyxa4.jpg
+    path:            https://lh3.googleusercontent.com/aS5GpZ68qaiZVZaS2JWbmgddKmuXZRwjl48EM60Wa_WJqYqAAlLK6wOwO_8PUMSVn8bRGoQPOInTXic-lwMi5-KMiNI5qoYUaEXbOTtIdD1lDBpDSQ5lZXa4PWTKf3WLRtcAFXKuJx9UINpfMZHCWWyvS5dx5loEVHApHFFqtOP7eMv9iAT6RAOuqe0X19BTfJ41zaq9awYwTVdnkEt9Gd2p-2QrIGeEV9Wif1_K7HP9lw5j99bsVt0SUqfGLIh7oDlHcM5vYC079PysThicUMtfv5nfIvJJAFpxiOuFdJIB2UnK2K6jnZFeZq3Td-e0FleM_cGeFf5wFv1zo85kYNRDBjlq4pZwkEzwD47LhJltcr6tj7gOY9sZ62ajq8OiHO8DlsNfu2UThy9o2ZozpRfNnFMoPVY0JQKXHuFSnfYyr-uhgfVdO8d2dPGTbFCSAxZ2SX3ELQ7QzyYkgczNhN25Vo0HoazgOKpN8G1iW32F4dkkTuGPEH0zx2EZFlnDrpblyxaTmDrsjYl7IFMGnje0d5NN0bcD-e7OJxPKHnPKlUueOYvYxPzdo40IK6aCyNd_XsLymDMd34qsUt7lWqLXIeawKBmIDX5o1PuP3w=w888-h1182-no
     # srcset is optional, but can be used to provide higher res versions for retina displays
     srcset:
-      1x:            http://i38.photobucket.com/albums/e114/jcjmz55/Mobile%20Uploads/20170727_154840_zpsdg9zyxa4.jpg
-      2x:            http://i38.photobucket.com/albums/e114/jcjmz55/Mobile%20Uploads/20170727_154840_zpsdg9zyxa4.jpg  
+      1x:            https://lh3.googleusercontent.com/aS5GpZ68qaiZVZaS2JWbmgddKmuXZRwjl48EM60Wa_WJqYqAAlLK6wOwO_8PUMSVn8bRGoQPOInTXic-lwMi5-KMiNI5qoYUaEXbOTtIdD1lDBpDSQ5lZXa4PWTKf3WLRtcAFXKuJx9UINpfMZHCWWyvS5dx5loEVHApHFFqtOP7eMv9iAT6RAOuqe0X19BTfJ41zaq9awYwTVdnkEt9Gd2p-2QrIGeEV9Wif1_K7HP9lw5j99bsVt0SUqfGLIh7oDlHcM5vYC079PysThicUMtfv5nfIvJJAFpxiOuFdJIB2UnK2K6jnZFeZq3Td-e0FleM_cGeFf5wFv1zo85kYNRDBjlq4pZwkEzwD47LhJltcr6tj7gOY9sZ62ajq8OiHO8DlsNfu2UThy9o2ZozpRfNnFMoPVY0JQKXHuFSnfYyr-uhgfVdO8d2dPGTbFCSAxZ2SX3ELQ7QzyYkgczNhN25Vo0HoazgOKpN8G1iW32F4dkkTuGPEH0zx2EZFlnDrpblyxaTmDrsjYl7IFMGnje0d5NN0bcD-e7OJxPKHnPKlUueOYvYxPzdo40IK6aCyNd_XsLymDMd34qsUt7lWqLXIeawKBmIDX5o1PuP3w=w888-h1182-no
+      2x:            https://lh3.googleusercontent.com/aS5GpZ68qaiZVZaS2JWbmgddKmuXZRwjl48EM60Wa_WJqYqAAlLK6wOwO_8PUMSVn8bRGoQPOInTXic-lwMi5-KMiNI5qoYUaEXbOTtIdD1lDBpDSQ5lZXa4PWTKf3WLRtcAFXKuJx9UINpfMZHCWWyvS5dx5loEVHApHFFqtOP7eMv9iAT6RAOuqe0X19BTfJ41zaq9awYwTVdnkEt9Gd2p-2QrIGeEV9Wif1_K7HP9lw5j99bsVt0SUqfGLIh7oDlHcM5vYC079PysThicUMtfv5nfIvJJAFpxiOuFdJIB2UnK2K6jnZFeZq3Td-e0FleM_cGeFf5wFv1zo85kYNRDBjlq4pZwkEzwD47LhJltcr6tj7gOY9sZ62ajq8OiHO8DlsNfu2UThy9o2ZozpRfNnFMoPVY0JQKXHuFSnfYyr-uhgfVdO8d2dPGTbFCSAxZ2SX3ELQ7QzyYkgczNhN25Vo0HoazgOKpN8G1iW32F4dkkTuGPEH0zx2EZFlnDrpblyxaTmDrsjYl7IFMGnje0d5NN0bcD-e7OJxPKHnPKlUueOYvYxPzdo40IK6aCyNd_XsLymDMd34qsUt7lWqLXIeawKBmIDX5o1PuP3w=w888-h1182-no
 
   # Social media icons in sidebar
   # Comment/uncommet to show/hide

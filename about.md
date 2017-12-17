@@ -10,7 +10,7 @@ order: 4
 
 I'm a Brooklyn native and full-stack developer who is now [actively searching for employment]. During the day I am an **EHR**(**E** lectronic **H** ealth **R** ecords) Coordinator for a fantastic non-profit organization that provides care to those fighting substance abuse disorder, homelessness, and behavioral health disorder. At night, I am a a free-lance web developer/cafe crawler (feel free to contact me for cafe suggestions around NYC).
 
-![Struggle Face](http://i38.photobucket.com/albums/e114/jcjmz55/Mobile%20Uploads/20170901_1725200_zpsnecapfea.jpg "Struggle Face!")
+![Struggle Face](/assets/img/about.jpg)
 
 Aside from aspiring to be a masterful senior level developer, I also enjoy calisthenics and finding new places to exercise.
 
