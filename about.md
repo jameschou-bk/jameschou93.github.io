@@ -1,9 +1,6 @@
 ---
 layout: about
 title: About
-description: >
-  Full-stack Developer, inspired by all things Health IT, and white belt in all martial arts
-
 menu: true
 order: 4
 ---

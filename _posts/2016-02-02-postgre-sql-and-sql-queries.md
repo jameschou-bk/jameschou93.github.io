@@ -1,46 +1,44 @@
 ---
 layout: post
 title: Postgres SQL and SQL Queries
-description: 
+description:
 image: /assets/img/caleb-george.jpg
 hide_image: true
 tags: [blog]
-redirect_from: /2017/11/17/whats-new-in-v7/
 ---
 
-While v7 brings an [insane amount of new stuff]({{ site.baseurl }}/CHANGELOG/#v700), the most notable change is the new background image.
-It is no longer *anti-selling* the theme.
-The old image was a blurred version of Napoleon Bonaparte, which was just... weird. I could tell the story of how this came to be,
-but I'd rather show you the new and improved background image.
-
-## New background image
-Yes, it's an aerial shot of a beach ([so hot right now](https://duckduckgo.com/?q=ios+11+background&t=ffab&iax=images&ia=images)).
-
-![Hydejack's background image]({{ site.baseurl }}/assets/img/caleb-george.jpg){:.lead}
-
-Q: What has this picture to do with Hydejack?
-Nothing really, I just like how it looks.
-However: Boat → Pirates → Hijacking → Hydejack (illuminati confirmed)
-
-Even though it is a free image from [Unsplash](https://unsplash.com/) (...), it's unique in the sense that
-I've modified it so it looks better inside the sidebar.
-Specifically, I've straightened out the beach and rotated the boat so that it sits at a nice 90 degree angle.
-
-For comparison, here is the non-euclidean mess the [original photo](https://unsplash.com/photos/AtvuPUenaeI) was. Pretty OCD, I know.
-
-![Original photo]({{ site.baseurl }}/assets/img/caleb-george-old.jpg){:.lead}
-
-## New color palette
-I've extracted the major colors from the background image, which now form Hydejack's color palette:
-
-![Hydejacks's color palette]({{ site.baseurl }}/assets/img/COLOURlovers.com-Hydejack.png){:style="border: 1px solid #ddd"}
-
-## New logo
-Hydejack also has a new logo, which is based on the new color palette.
-It also features the best font on Google Fonts, and probably the world: [Roboto Slab](https://fonts.google.com/specimen/Roboto+Slab)
-(which is to say, I like it a lot).
-
-![Hydejack's logo]({{ site.baseurl }}/assets/icons/icon.png)
+It has been a couple of weeks since my last post and my mind is bloated with new information from this bootcamp. The topic that I was most excited about this time is Structured Query Language(SQL). There are many types of SQL databases including, SQL lite, MySQL, and Oracle SQL to a name a few. Each of these database types have different features, however, they all use SQL to retrieve data. In this post, I will be referring to Postgre SQL
 
 
-[^1]: I should mention that these are only default values. Hydejack let's you choose your own. For inspiration, I've recently added [a gallery]({{ site.baseurl }}/projects/) to the site that shows a few variations of the theme.
+**SQL Query Structure**
+Below I have a dummy database with an extensive list of fake employees and their information.
+![dummy database]({{ site.baseurl }}/assets/img/2016-02-2-SQL.png)
+I want to find all male employees who are over the age of 50 so that I can send them reminders to schedule their annual prostate exam. Most managers who care about their employees’ health still probably would not want to go through the trouble of sift through each individual piece of data to send out a simple email. This is where SQL comes in!
+Here is the general structure of a SQL query:
+~~~
+SELECT (Columns you would like to see)
+FROM (Table you are requesting data from)
+WHERE (Conditions the data must meet to appear in your results)
+;  <---semicolon states the end of your query
+~~~
+In my example, I would like to see all the information for my 50+ year old males so I would input:
+~~~
+SELECT * FROM employees WHERE birth_date < 1967-01-31
+~~~
+![sql *]({{ site.baseurl }}/assets/img/2016-02-2-SQL.gif)
+Using * in my select command will return all columns in the database for my results.
+We can also query data based on partial segments of string. For example, if I wanted to find the employee numbers on all employees with a last name beginning in the letter “Z” I can use the query:
+~~~
+SELECT emp_no, last_name FROM employees WHERE last_name LIKE 'Z%'
+~~~
+The combination of the LIKE statement and the % symbol allows us to find clients with this partial string. The % symbol tells the system that any value can exist after the letter “Z”. This query can also return all last names that end in “Z” if we entered:
+~~~
+SELECT emp_no, last_name FROM employees WHERE last_name LIKE '%z'
+~~~
+Or if we want all last names that contain the letter “Z”
+~~~
+SELECT emp_no, last_name FROM employees WHERE last_name ILIKE '%z%'
+~~~
+Notice that for my last query I used ILIKE instead of LIKE which tells the query to become case insensitive.
+SQL is a fantastic skill not only for programmers but also for those in healthcare, business, and all professions that deal with big data and there is still much to learn before this language is mastered.
+I hope this post was helpful to someone!
