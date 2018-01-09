@@ -6,7 +6,7 @@ description: >
 tags: [blog]
 ---
 
-As a fellow Rails developer, you have most likely received the task of creating something similar to a blogging app (bare with me if you haven't). Recently, I have had to create one complete with commenting, sharing, and voting capabilities. Typically I would take time to map out the schema prior to running `rails new` but in this case I was pressed for time. Luckily I had the [`act_as_voteable` gem](https://github.com/ryanto/acts_as_votable) to save the day!
+As a fellow Rails developer, you have most likely received the task of creating something similar to a blogging app (bear with me if you haven't). Recently, I have had to create one complete with commenting, sharing, and voting capabilities. Typically I would take time to map out the schema prior to running `rails new` but in this case I was pressed for time. Luckily I had the [`act_as_voteable` gem](https://github.com/ryanto/acts_as_votable) to save the day!
 
 Installation is very basic as all you need to do is include the gem in your gemfile and bundle:
 
