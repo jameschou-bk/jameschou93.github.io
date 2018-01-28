@@ -7,7 +7,10 @@ order: 4
 
 I'm a Brooklyn native and full-stack developer who is now [actively searching for employment]. During the day I am an **EHR**(**E** lectronic **H** ealth **R** ecords) Coordinator for a fantastic non-profit organization that provides care to those fighting substance abuse disorder, homelessness, and behavioral health disorder. At night, I am a a free-lance web developer/cafe crawler (feel free to contact me for cafe suggestions around NYC).
 
+My dream is to create an EHR that is easy enough for providers to learn without expensive trainers and resources while also providing the functionality of today's most sophisticated record keeping systems. 
+
 ![Struggle Face](/assets/img/about.jpg)
+
 
 Aside from aspiring to be a masterful senior level developer, I also enjoy calisthenics and finding new places to exercise.
 
