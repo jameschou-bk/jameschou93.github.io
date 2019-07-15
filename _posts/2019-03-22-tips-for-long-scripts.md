@@ -1,10 +1,11 @@
 ---
-layout:
+layout: page
 title: "Tips with long scripts"
 description: >
   Making long scripts less of a drag!
 tag: [blog]
 ---
+
 
 Working in Healthcare informatics means I have to work with a wide range of healthcare providers and an even wider range of EMRs(Electronic Medical Records). For every speciality of care, there is a different slew of EMRs available which can make it tough on Dr. Doe (hypothetical provider) to take his charts from EPIK to BasikEMR (fake Medical Records platforms) and access them in their new EMR.
 
@@ -74,4 +75,4 @@ end;system("say Hi Im done printing unimportant string!")
 Once you're script is done, you'll hear a scary robot voice repeat your string! YAY?
 
 
-I hope these tips help make your lives a little bit easier or spark some other ideas! 
+I hope these tips help make your lives a little bit easier or spark some other ideas!
