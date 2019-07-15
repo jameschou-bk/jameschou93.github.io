@@ -2,9 +2,11 @@
 layout: page
 title: "Gitting Back to Work"
 description: >
-How to undo a git commit
-tags: [blog]
+  First day of work!
+tag: [blog]
 ---
+
+
 I just had my first official day as a paid dev!
 
 ![Confetti](/assets/img/confetti-kid.gif)
