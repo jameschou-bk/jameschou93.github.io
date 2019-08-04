@@ -45,7 +45,7 @@ Note the differences
 
 * Functions are called in div tags
 
-* Instead of the <%=beehive%> tag for ruby cody, we use {{double curly braces}}
+* Instead of the <%=beehive%> tag for ruby code, we use {{double curly braces}}
 
 * The each loop is written in the div tag differently than in ruby.
 
